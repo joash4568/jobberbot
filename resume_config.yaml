@@ -1,0 +1,36 @@
+basics:
+  email: johndoe@example.com
+  location:
+    city: New York
+    countryCode: USA
+  name: John Doe
+  phone: +1 555 0199
+  profiles:
+  - network: LinkedIn
+    url: https://linkedin.com/in/johndoe
+    username: johndoe
+  url: https://youtube.com/@fuji_codes
+education:
+- area: English Literature
+  endDate: 2019-05
+  institution: University of Example
+  startDate: 2015-09
+projects:
+- description: Wrote 50+ articles
+  keywords:
+  - Writing
+  - SEO
+  name: Blog Writing
+  url: http://example.com
+skills:
+- keywords: Copywriting, SEO, Editing
+  name: Writing
+- keywords: Typing, Excel, Accuracy
+  name: Data Entry
+work:
+- endDate: 2022-01
+  highlights:
+  - Wrote tech blogs
+  name: Tech Corp
+  position: Content Writer
+  startDate: 2020-01

@@ -1,0 +1,21 @@
+{
+  "chrome": {
+    "userDataDir": "C:\\Users\\<USERNAME>\\AppData\\Local\\Google\\Chrome\\User Data",
+    "profileName": "Default",
+    "headless": false
+  },
+  "indeed": {
+    "jobQuery": "software engineer",
+    "placeQuery": "remote"
+  },
+  "smtp": {
+    "sender_name": "joshua musani",
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "secure": false,
+    "auth": {
+      "user": "joshuamusani4@gmail.com",
+      "pass": "rvwdstikljfusxdh"
+    }
+  }
+}

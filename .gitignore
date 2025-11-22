@@ -1,0 +1,13 @@
+# Custom gitignore
+__pycache__
+config.json
+.history
+*venv*
+*.db
+*.pyc
+*.png
+*.jpg
+*.gif
+*.pdf
+*.log
+*.jpeg
