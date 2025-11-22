@@ -11,12 +11,12 @@ echo "🚀 Starting Jobber Bot Setup for Kali Linux..."
 # 'libpango' and 'libffi' are crucial for WeasyPrint (Resume Generator)
 echo "📦 Installing system dependencies (requires sudo)..."
 sudo apt-get update
-sudo apt-get install -y python3-pip python3-venv chromium-driver libpango-1.0-0 libpangoft2-1.0-0 libffi-dev libjpeg-dev libopenjp2-7-dev
+sudo apt-get install -y python3-pip python3-venv chromium-driver libpango-1.0-0 libpangoft2-1.0-0 libffi-dev libjpeg-dev libopenjp2-7-dev python3-yaml
 
 # 2. Set up Python Virtual Environment
 echo "🐍 Setting up Python virtual environment..."
 if [ ! -d "venv" ]; then
-    python3 -m venv venv
+    python3 -m venv venv --system-site-packages
     echo "   -> Virtual environment created."
 else
     echo "   -> Virtual environment already exists."
