@@ -1,6 +1,17 @@
-PyYAML==6.0.1
 g4f
-resumy
+md2pdf
+selenium
+curl_cffi
+termcolor
+markdownify
+platformdirs
+webdriver-manager
+undetected_chromedriver
+# Resumy dependencies (installed manually to fix conflict)
+click
+jinja2
+weasyprint
+jsonschema
 md2pdf
 selenium
 curl_cffi

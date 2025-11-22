@@ -25,8 +25,13 @@ fi
 # 3. Activate & Install Python Requirements
 echo "⬇️  Installing Python libraries..."
 source venv/bin/activate
-pip install --upgrade pip
+pip install --upgrade pip setuptools wheel
+# 1. Install PyYAML 6.0.1 (Fixes build error on newer Python)
+pip install PyYAML==6.0.1
+# 2. Install other dependencies
 pip install -r requirements.txt
+# 3. Install resumy ignoring dependencies (bypasses the strict PyYAML==6.0 conflict)
+pip install resumy --no-deps
 
 # 4. Verify Installation
 echo "✅ Verifying installation..."
